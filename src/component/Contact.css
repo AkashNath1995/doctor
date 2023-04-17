@@ -1,0 +1,69 @@
+.contact{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(73, 39, 197);
+}
+
+.contact main{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    height: 30rem;
+    width: 60%;
+    border-radius: 200px;
+    align-items: center;
+    justify-content: center;
+
+}
+.contact main h1{
+    align-items: flex-start;
+    color: rgb(73, 39, 197);
+}
+.contact main form{
+    margin: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+form div{
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 80%;
+    margin: 2.2rem;
+}
+
+label{
+    font: 400 2rem;
+    width: 40%;
+    margin: 2rem;
+}
+
+input{
+    align-self: stretch;
+    padding: 1px 1rem ;
+    border: 1px solid rgb(73, 39, 197);
+    outline: none;
+    border-radius: 5px;
+}
+
+button{
+    margin: 3rem;
+    border: none;
+    border-radius: 5px;
+    padding: 0.7rem;
+    width: 5rem;
+    background-color: rgb(101, 76, 243);
+    cursor: pointer;
+}
+
+button:hover{
+    width: 6rem;
+    background-color: slateblue;
+}
